@@ -1,0 +1,90 @@
+body {
+    background-image: url(/IMG/IGLESIA.jpg);
+    background-size: 100vw 700px;
+    background-repeat: no-repeat;
+    margin: 0%;
+    width:100%;
+}
+#cabecera_principal {
+    background-color: rgb(255, 255, 255);
+}
+header {
+    position: fixed;
+    width: 90%;
+    margin: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#cabecera_logos {
+    background-image: linear-gradient(-225deg, #3700ff 0%, #ffffff 29%, #ffffff 67%, #3700ff 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#cabecera_logos img {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    
+}
+
+
+#menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-image: linear-gradient(-225deg, #fffb00 0%, #1ca81c 67%, #fffb00 100%)
+    
+    
+}
+  
+li {
+    display: inline;
+    padding: 30px;
+    
+}
+  
+a {
+    text-decoration: none;
+    color: #050000;
+}
+#buscador {
+    height: 40px;
+    width: 205px;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    color: #000000;
+  line-height: 38px;
+  text-decoration: none;
+  white-space: nowrap;
+  }
+  
+ .submit-buscador {
+    position: absolute;
+    right:0;
+    left: 91%;
+    top:70%;
+    height: 30px;
+    padding: 0;
+    display: block;
+    text-indent: -999px; 
+    width: 40px; 
+    border-radius: 10px;
+    background-image: url(/IMG/lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border:none;
+    background-color: #ffffff;
+  }
